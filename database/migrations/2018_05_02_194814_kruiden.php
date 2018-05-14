@@ -18,7 +18,7 @@ class Kruiden extends Migration
             $table->increments('id');
             $table->string('naam');
             $table->string('latin_naam')->nullable();;
-            $table->string('beschrijving')->nullable();;
+            $table->longText('beschrijving')->nullable();;
             $table->timestamps();
         });
     }
