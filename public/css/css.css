@@ -1,0 +1,25 @@
+main.py-4{
+    padding-top:0!important;
+    font-family: "Roboto", sans-serif;
+}
+.kruid{
+    background-color:gray;
+    height:10rem;
+    text-transform:uppercase;
+    font-weight:bolder;
+    background-position: center;
+    background-size: cover;
+}
+.kruid a h1{
+    padding: 5%;
+    color:white;
+    text-decoration:none;
+}
+.kruid a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.kruid a:hover {
+
+}
