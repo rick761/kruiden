@@ -38,7 +38,7 @@ class HomeController extends Controller
         return $this->index($request);
     }
     public function addKruid(Request $request){
-        
+
         $kruid = new Kruid();
         $kruid->naam = $request->naam;
         $kruid->save();
